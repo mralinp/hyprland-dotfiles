@@ -27,3 +27,5 @@ $ ./install.sh
 ## 🌈 Preview
 
 ![sample image](/sample.png)
+
+Feel free to customize it further, and enjoy your beautifully configured desktop environment! 😎
