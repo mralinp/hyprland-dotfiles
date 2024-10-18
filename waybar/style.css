@@ -1,0 +1,83 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  opacity:  1;
+}
+#waybar {
+  background: #000;
+  color: #fff;
+  min-height: 0;
+  font-size: 14px;
+  font-family: "Hack Nerd Font";
+}
+
+#workspaces button {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #fff;
+  border-radius:  1rem;
+}
+/* Fix: active workspace doesn't show up */
+/* #workspaces button.focused { */
+#workspaces button.active {
+  color: #000;
+  background: #fff;
+}
+
+#custom-powermenu,
+#cpu,
+#temperature,
+#memory,
+#workspaces,
+#clock,
+#window,
+#pulseaudio,
+#custom-updates,
+#network {
+  padding: 0 5px;
+  margin: 0px 2px;
+  border-radius: 0.25rem;
+}
+
+#window {
+  color: white;
+}
+
+#tray {
+  margin-left: 20px;
+  margin-right:  20px;
+}
+
+#pulseaudio {
+  color: #14e6db;
+  padding-right: 14px;
+}
+
+#cpu {
+  color: #4ba9f7;
+}
+
+#temperature {
+  color: #87fc34;
+}
+
+#memory {
+  color: #ffaa0c;
+}
+
+#network {
+  color: #b311e4;
+}
+
+#clock {
+  color: #fff;
+  margin-left: 8px;
+}
+
+
+#custom-powermenu {
+  color: rgb(248, 41, 41);
+}
