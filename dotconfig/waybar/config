@@ -1,0 +1,97 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-bottom": 0,
+    "modules-left": [
+      "clock",
+      "hyprland/workspaces",
+      "tray"
+      ],
+    "modules-center": [
+      "hyprland/window"
+      ],
+    "modules-right": [
+      "network",
+      "temperature",
+      "cpu",
+      "memory",
+      "pulseaudio",
+      "custom/powermenu"
+    ],
+    "tray": {
+      "icon-size": 16,
+      "spacing": 5
+    },
+    "hyprland/window": {
+      "format": "{}",
+      "max-length": 80
+    },
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "-99": ""
+      }
+    },
+    "network": {
+    	"interface": "eno1",
+    	"format": "{ifname}",
+   	"format-wifi": "{essid} ({signalStrength}%) ",
+    	"format-ethernet": "{ipaddr}/{cidr}",
+    	"format-disconnected": "",
+    	"tooltip-format-ethernet": " {bandwidthDownBits}  {bandwidthUpBits}",
+    	"tooltip-format-disconnected": "Disconnected",
+    	"max-length": 50,
+	"on-click": "exec nm-connection-editor" 
+    },
+    "temperature": {
+      "format": "{icon}temp {temperatureC}°C",
+      "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+      "critical-threshold": 80,
+      "format-icons": ["", "", ""]
+    },
+    "memory": {
+      "format": "{}%",
+      "tooltip": "false"
+    },
+    "cpu": {
+      "format": " {usage}%",
+      "tooltip": "false"
+    },
+    "pulseaudio": {
+      "format": "{volume}% {icon}",
+      "format-bluetooth": "{volume}% {icon}",
+      "format-muted": "",
+      "format-icons": {
+          "headphone": "",
+          "hands-free": "",
+          "headset": "",
+          "phone": "",
+          "portable": "",
+          "car": "",
+          "default": ["", ""]
+      },
+      "scroll-step": 1,
+      "on-click": "pavucontrol"
+    },
+    "custom/powermenu" : {
+      "format": "⏻",
+      "tooltip": false,
+      "on-click": "pkill wlogout || wlogout --protocol layer-shell -b 5 -T 400 -B 400"
+    },
+   "clock": {
+      "format": "<span color='#eee'> </span>{:%H:%M}",
+      "format-alt": "<span foreground='#eee'> </span><span>{:%I:%M %p %a %d}</span>",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    }
+}
+
