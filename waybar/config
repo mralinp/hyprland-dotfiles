@@ -23,7 +23,8 @@
       "spacing": 5
     },
     "hyprland/window": {
-      "format": " {}"
+      "format": "{}",
+      "max-length": 80
     },
     "hyprland/workspaces": {
       "format": "{icon}",
@@ -45,8 +46,8 @@
     	"interface": "eno1",
     	"format": "{ifname}",
    	"format-wifi": "{essid} ({signalStrength}%) ",
-    	"format-ethernet": "{ifname}: {ipaddr}/{cidr}",
-    	"format-disconnected": "offline",
+    	"format-ethernet": "{ipaddr}/{cidr}",
+    	"format-disconnected": "",
     	"tooltip-format-ethernet": " {bandwidthDownBits}  {bandwidthUpBits}",
     	"tooltip-format-disconnected": "Disconnected",
     	"max-length": 50,
@@ -59,11 +60,11 @@
       "format-icons": ["", "", ""]
     },
     "memory": {
-      "format": "ram {}%",
+      "format": "{}%",
       "tooltip": "false"
     },
     "cpu": {
-      "format": "cpu {usage}%",
+      "format": " {usage}%",
       "tooltip": "false"
     },
     "pulseaudio": {
