@@ -13,7 +13,7 @@ Here's a list of essential tools that make this setup awesome:
 6. **Kitty** – A fast, feature-rich terminal emulator for all your command-line needs.
 7. **PipeWire** – An advanced audio backend to manage all your sound requirements.
 8. **Dunst** – A minimal and configurable notification manager.
-
+9. **Hyprlock** - A wayland based lockscreen.
 ## 🔤 Fonts
 
 Enhance the aesthetic with Nerd Fonts, which provide icons and symbols for an improved terminal and system appearance.

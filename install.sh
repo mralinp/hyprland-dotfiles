@@ -30,6 +30,7 @@ yay -S --needed \
     waybar \
     sway \
     hyprland-git \
+    hyprlock \
     wlogout \
     dunst \
     rofi \
