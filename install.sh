@@ -51,7 +51,10 @@ yay -S --needed \
     gthumb \
     python \
     python-pip \
-    python-pillow
+    python-pillow \
+    xdg-desktop-portal-hyprland-git \
+    pipewire \
+    wireplumber
 
 # Clone the Hyprland configuration repository
 REPO_URL="https://github.com/mralinp/hyprland-dotfiles.git"
