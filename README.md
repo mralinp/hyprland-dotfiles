@@ -15,6 +15,7 @@ Here's a list of essential tools that make this setup awesome:
 7. **PipeWire** – An advanced audio backend to manage all your sound requirements.
 8. **Dunst** – A minimal and configurable notification manager.
 9. **Hyprlock** – A wayland based lockscreen.
+10. **NeoVim with NvChad** – A modern text editor with enhanced features and a powerful configuration framework.
 
 ## 🔤 Fonts
 
