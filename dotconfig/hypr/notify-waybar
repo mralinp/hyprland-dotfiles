@@ -1,0 +1,6 @@
+#!/bin/bash
+
+keymap=$(hyprctl devices | awk '/Keyboard/,/main: yes/ {if (/active keymap:/) keymap=$3} /main: yes/ {print keymap; exit}')
+
+notify-send "keyboard layout switched: $keymap"  
+pkill -RTMIN+1 waybar

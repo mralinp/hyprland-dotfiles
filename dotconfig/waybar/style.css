@@ -17,6 +17,7 @@
 #workspaces button {
   color: #fff;
   border-radius:  1rem;
+  margin-right: 5px;
 }
 /* Fix: active workspace doesn't show up */
 /* #workspaces button.focused { */
