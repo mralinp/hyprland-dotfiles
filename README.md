@@ -31,6 +31,6 @@ $ ./install.sh
 
 ## 🌈 Preview
 
-![sample image](/sample.png)
+![sample image](/assets/sample.png)
 
 Feel free to customize it further, and enjoy your beautifully configured desktop environment! 😎
