@@ -26,7 +26,7 @@ Enhance the aesthetic with Nerd Fonts, which provide icons and symbols for an im
 To set up this awesome configuration on your system, simply run the install script:
 
 ```console
-$ ./install.sh
+$ curl https://raw.githubusercontent.com/mralinp/hyprland-dotfiles/refs/heads/main/install.sh | sh
 ```
 
 ## 🌈 Preview
